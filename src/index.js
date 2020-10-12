@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import * as serviceWorker from './serviceWorker';
+import 'normalize.css/normalize.css';
+import './styles/styles.scss';
+import UnderConstructionPage from './components/UnderConstructionPage'
 
 ReactDOM.render(
   <React.StrictMode>
-    <div>
-    Hey, is Erika
-    </div>
+    <UnderConstructionPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
